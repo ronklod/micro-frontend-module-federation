@@ -1,0 +1,41 @@
+.envelope-body {
+    background-color: lightsteelblue;
+    width: 100vw;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .section-1{
+      margin-top: 20px;
+      margin-bottom: 20px;  
+     
+  }
+  .section-2{
+
+  }
+  .section-0{
+      font-size: 30pt;
+      color: white;
+      font-weight: bold;
+      margin-top: 20px;
+  }
+
+  .div-btn-left{
+      margin-right: 10px;
+      display: inline-block;
+  }
+
+  .div-btn-right{
+      display: inline-block;
+  }
+
+  .page-title{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    font-style: italic;
+    text-decoration: underline;
+    color: blueviolet;
+    font-weight: bold;
+}
