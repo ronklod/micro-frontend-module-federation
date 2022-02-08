@@ -1,0 +1,30 @@
+.home-body{
+    background-color: lightsteelblue;
+    width: 100vw;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .page-title{
+    padding-top: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20pt;
+    font-style: italic;
+    text-decoration: underline;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.div-content{
+    margin-top: 40px;
+    
+}
+
+.ul-links{
+   
+    width: 600px;
+    position: relative;
+    left:33%;
+    list-style-type: none
+}
