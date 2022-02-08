@@ -1,0 +1,51 @@
+.arca-body{
+    background-color: lightsteelblue;
+    width: 100vw;
+    height: 600px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .arca-content{
+      margin-top: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 24pt;
+      color: white;
+      
+      height: 100%;
+  }
+  
+  .server-content{
+    background-color: lightgray;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    width: 600px;
+    height: 200px;
+    position: relative;
+    left: 35%;
+    color: black;
+    font-family: monospace;
+  }
+
+  .store-content{
+      margin-top: 25px;
+      font-family: Arial, Helvetica, sans-serif;
+      color: navy;
+      font-size: 24;
+      align-items:flex-end;
+  }
+
+  .page-title{
+      padding-top: 10px;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 20pt;
+      font-style: italic;
+      text-decoration: underline;
+      color: blueviolet;
+      font-weight: bold;
+  }
+
+  .links-title{
+      text-decoration: underline;
+ }
