@@ -17,4 +17,17 @@ This repository is used to demonstrate the use of micro frontends using webpack 
 
 
 ## Installation
-a
+In order to make it sure all is runnnig, this is the order which you need to set it up:
+<ol>
+	<li>making sure the store is running:
+		```
+		cd store
+		yarn start
+		```
+	</li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
+	
