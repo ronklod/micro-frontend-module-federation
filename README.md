@@ -1,6 +1,6 @@
 # micro-frontend-module-federation
-This repository is used to demonstrate the use of micro frontends using webpack 5 module federation.
-The applicartion is constrcuted from the following componenets:
+This repository is used to demonstrate the use of micro frontends using webpack 5 module federation. </br>
+##The applicartion is constrcuted from the following componenets:##
 a. host - this is the host application which acts as the container for all the other micro frontends.
 b. store - this is a micro-frontend which is resposible for the entire state of tha application, it is using redux
 c. arca - a micro frontend
