@@ -1,23 +1,25 @@
+
 # micro-frontend-module-federation
 This repository is used to demonstrate the use of micro frontends using webpack 5 module federation. 
 
 ### The applicartion is constrcuted from the following componenets:
-host - this is the host application which acts as the container for all the other micro frontends.
+1. host - this is the host application which acts as the container for all the other micro frontends.
 
-store  - this is a micro-frontend which is resposible for the entire state of tha application, it is using redux.
+2. store  - this is a micro-frontend which is resposible for the entire state of tha application, it is using redux.
 	
-arca - a micro frontend
+3. arca - a micro frontend
 	
-envelope - a micro frontend
+4. envelope - a micro frontend
 	
-home - a micro frontend
+5. home - a micro frontend
 	
-static files server - used for 2 things:
+6. static files server - used for 2 things:
 
-1. acting a web server for the arca micro frontend
-2. acting a a static files to show how the micro frontends remoteEntry.js files can be served from a static files server.
+   a. acting a web server for the arca micro frontend
+
+   b. acting a a static files to show how the micro frontends remoteEntry.js files can be served from a static files server.
 		
-mfe-poc-component-library - this is a npm package which i wrote, which contains 3 components which are used to mimic the use of a shared component library
+7. mfe-poc-component-library - this is a npm package which i wrote, which contains 3 components which are used to mimic the use of a shared component library
 	
 
 
@@ -48,11 +50,5 @@ yarn start
 
 ```
 cd home
-yarn start
-```
-
-now we can start the host application
-```
-cd host
 yarn start
 ```
