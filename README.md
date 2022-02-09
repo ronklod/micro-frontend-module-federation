@@ -13,6 +13,8 @@ This repository is used to demonstrate the use of micro frontends using webpack 
 			<li>acting a a static files to show how the micro frontends remoteEntry.js files can be served from a static files server.</li>
 		</ol>
 	</li>
+	<li> mfe-poc-component-library - this is a npm package which i wrote, which contains 3 compoenents which are used to mimic the use of a shared componenet library
+	</li>
 </ol>
 
 
