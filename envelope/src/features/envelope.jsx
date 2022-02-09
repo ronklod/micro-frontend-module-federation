@@ -28,6 +28,8 @@ export default () => {
             <div className="section-0">
                 <p className="section-0-description">
                     This example demonstrates how the state of the application is shared between all the different micro frontends
+                    <br></br>
+                    and the use of shared component library (buttons, textbox)
                 </p>
                 <span>{count}</span>
             </div>
