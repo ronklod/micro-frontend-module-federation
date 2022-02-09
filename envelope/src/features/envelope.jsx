@@ -26,7 +26,10 @@ export default () => {
             </div>
 
             <div className="section-0">
-            <span>{count}</span>
+                <p className="section-0-description">
+                    This example demonstrates how the state of the application is shared between all the different micro frontends
+                </p>
+                <span>{count}</span>
             </div>
             <div className="section-1" >
                 <div className="div-btn-left">
