@@ -16,7 +16,7 @@ export default () => {
         } , (e)=>{
             console.log(e.message);
         });
-    })
+    },[])
 
 
     return (
