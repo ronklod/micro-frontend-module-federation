@@ -16,6 +16,8 @@ module.exports = {
     historyApiFallback: true,
   },
 
+  devtool: 'source-map',
+
   module: {
     rules: [
       {
@@ -64,5 +66,6 @@ module.exports = {
     new HtmlWebPackPlugin({
       template: "./src/index.html",
     }),
+
   ],
 };

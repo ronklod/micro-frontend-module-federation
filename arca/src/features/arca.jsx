@@ -9,14 +9,32 @@ export default () => {
 
     const [arcaData, setArcaData] = useState('');
     const {count,reset} = useStore();
+    let arca_data = "";
 
     useEffect(()=>{
         serverApis.get( (data)=>{
-            setArcaData(data.data);
-        } , (e)=>{
-            console.log(e.message);
-        });
+                        let x = arcaData + "\n" + data.data;
+                        arca_data += x;
+                        setArcaData(arca_data);
+
+
+                    } , (e)=>{
+                        console.log(e.message);
+                    })
+        // setInterval( () =>{
+        //         serverApis.get( (data)=>{
+        //             let x = arcaData + "\n" + data.data;
+        //             arca_data += x;
+        //             setArcaData(arca_data);
+        //
+        //
+        //         } , (e)=>{
+        //             console.log(e.message);
+        //         })
+        // }
+        // ,5000);
     },[])
+
 
 
     return (

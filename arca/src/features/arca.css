@@ -26,13 +26,16 @@
     left: 35%;
     color: black;
     font-family: monospace;
+    font-size: 12pt;
+    overflow-y: auto;
+
   }
 
   .store-content{
       margin-top: 25px;
       font-family: Arial, Helvetica, sans-serif;
       color: navy;
-      font-size: 24;
+      font-size: 24pt;
       align-items:flex-end;
   }
 
